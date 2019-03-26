@@ -65,7 +65,7 @@ return true;
 }
 else
 {
-alert('Käyttäjän osoitteessa voi olla vain kirjaimia tai numeroita.');
+alert('Osoitteessa voi olla vain kirjaimia tai numeroita.');
 uadd.focus();
 return false;
 }
