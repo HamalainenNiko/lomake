@@ -50,7 +50,7 @@ function allLetter(uname)
 }
 else
 {
-    alert('Nimessä saa olla pelkkiä aakkosia.');
+    alert('Nimessä on virheellisiä merkkejä.');
     uname.focus();
     return false;
 }
