@@ -141,6 +141,7 @@ function validate() {
         return false;
     } else {
         alert("Lomake lähetetty");
+        window.location.reload()
         return true;
     }
 }
